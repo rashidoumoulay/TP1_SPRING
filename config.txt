@@ -1,0 +1,2 @@
+net.oumoulay.ext.DaoImplV2
+net.oumoulay.metier.MetierImpl
