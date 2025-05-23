@@ -1,2 +1,2 @@
-net.oumoulay.ext.DaoImplV2
+net.oumoulay.dao.DaoImpl
 net.oumoulay.metier.MetierImpl

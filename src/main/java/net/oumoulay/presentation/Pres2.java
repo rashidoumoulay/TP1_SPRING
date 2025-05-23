@@ -9,7 +9,9 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.Scanner;
 
 public class Pres2 {
-    public static void main(String[] args) throws FileNotFoundException, ClassNotFoundException, InstantiationException, IllegalAccessException, NoSuchMethodException, InvocationTargetException {
+    public static void main(String[] args) throws FileNotFoundException,
+            ClassNotFoundException, InstantiationException, IllegalAccessException,
+            NoSuchMethodException, InvocationTargetException {
         Scanner s = new Scanner(new File("config.txt"));
         String daoClassName = s.nextLine();
         Class cDao = Class.forName(daoClassName);
